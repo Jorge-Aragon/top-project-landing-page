@@ -45,7 +45,7 @@ a{
     justify-content: center;
     gap: 50px;
     padding: 75px 0px;
-    
+    flex: 1;
 }
 
 .container-1-left,
@@ -91,4 +91,41 @@ h2{
 
 .container-1-img{
     max-width: 650px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    flex: 1;
+}
+.container-2 h3{
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.container-2-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.container-2-box{
+    width: 200px;
+    height: auto;
+}
+
+.container-2-box p{
+    padding: 10px 10px 100px 10px;
+    margin: 0px;
+}
+
+.container-2-img{
+    width: 200px;
+    height: auto;
+    border: none;
+    border-radius: 8px;
 }
