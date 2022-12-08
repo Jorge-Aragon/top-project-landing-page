@@ -1,26 +1,28 @@
 body{
     margin: 0;
+    flex-shrink: 0;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 0 275px;
+    padding: 0 0px;
     align-items: center;
     background-color: #1F2937;
 }
 
 .header-logo{
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0;
     font-size: 24px;
     color: #F9FAF8;
     flex-shrink: 0;
+    gap: 12px;
 }
 
 .header-links{
-    padding: 0px 0;
+    padding: 0px 100px;
     flex-shrink: 0;
 }
 
@@ -116,13 +118,18 @@ h2{
 }
 
 .container-2-box{
+    display: flex;
+    flex-direction: column;
     width: 200px;
     height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-2-box p{
     padding: 10px 10px 100px 10px;
     margin: 0px;
+    justify-content: center;
 }
 
 .container-2-img{
@@ -212,4 +219,10 @@ p{
     height: 100px;
     background-color: #1F2937;
     color: #F9FAF8;
+    margin: 0;
+}
+
+.header-logo .img-logo{
+    width: 10%;
+    height: auto;
 }
